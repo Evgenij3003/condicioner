@@ -414,18 +414,19 @@ body._lock {
   }
 }
 ._page-ventilation ._button span {
-  position: absolute;
-  top: -1.5%;
-  right: 0;
-  height: 103%;
-  display: flex;
-  justify-content: center;
-  width: 1.5625rem;
-  background-color: rgba(255, 255, 255, 0.3);
-  transform: scaleX(0);
-  transform-origin: right center;
-  pointer-events: none;
-  transition: transform 0.25s ease-in-out;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    width: 1.5625rem;
+    background-color: rgba(255, 255, 255, 0.3);
+    transform: scaleX(0);
+    transform-origin: right center;
+    pointer-events: none;
+    border-radius: 0 0.5rem 0.5rem 0;
+    transition: transform 0.25s ease-in-out;
 }
 ._page-ventilation ._button span img {
   opacity: 0;
