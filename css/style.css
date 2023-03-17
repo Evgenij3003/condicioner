@@ -604,7 +604,7 @@ body._lock {
   left: 0;
   width: 1.125rem;
   height: 1.125rem;
-  background-image: url("../../img/page-ventilation/svg-icons/checkbox.svg");
+  background-image: url("../img/page-ventilation/svg-icons/checkbox.svg");
   transform: scale(0.75);
   opacity: 0;
   transition: transform 0.15s ease-in-out, opacity 0.05s ease-in-out;
@@ -4372,7 +4372,7 @@ body._lock {
   position: absolute;
   width: 3.5rem;
   height: 3.5rem;
-  background-image: url("../../img/page-ventilation/svg-icons/loop.svg");
+  background-image: url("../img/page-ventilation/svg-icons/loop.svg");
   background-size: cover;
   transform: scale(0.7);
   opacity: 0;
